@@ -1,0 +1,13 @@
+/etc/init.d/sysntpd disable
+
+ntpd -lN
+
+########
+# Server
+#/SDC/Clock 38400 1 1 1 1 0 0 &
+
+########
+# Client
+/SDC/Clock 4800 1 1 1 0 1 0 &
+
+exit 0
