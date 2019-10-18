@@ -1,6 +1,6 @@
-/etc/init.d/sysntpd disable
+#/etc/init.d/sysntpd disable
 
-ntpd -lN
+#ntpd -lN
 
 ########
 # Server
