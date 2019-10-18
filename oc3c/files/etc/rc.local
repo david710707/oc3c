@@ -4,10 +4,10 @@ ntpd -lN
 
 ########
 # Server
-#/SDC/Clock 38400 1 1 1 1 0 0 &
+#/SDC/Clock 38400 1 1 1 1 0 60 &
 
 ########
 # Client
-/SDC/Clock 4800 1 1 1 0 1 0 &
+/SDC/Clock 4800 1 1 1 0 1 60 &
 
 exit 0
