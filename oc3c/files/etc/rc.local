@@ -1,3 +1,5 @@
+/SDC/gpsd/bin/gpsd -D 5 -nN /dev/ttyS1
+/SDC/ntp/bin/ntpd -c /SDC/ntp.conf
 /SDC/SdcWatchDog &
 
 exit 0
